@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+background-color: black;
+color: #ffffff;
+}
+
+
+.container{
+    position: sticky;
+    top: 0px;
+    z-index:99999999;
+}
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 35px 0px 0px;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 5px 30px #67cae188;
+    height: 90px;
+    /* position: sticky;
+    top: 0px;
+    z-index:99999999; */
+
+}
+
+
+.logo {
+    height: 90px;
+    width: 140px;
+}
+
+.logo img {
+    /* height: 90px;
+    width: 134px */
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.nav-links ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+    list-style: none;
+    color: white;
+
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+   
+}
+
+.nav-links a:hover {
+    color: rgb(81, 187, 241);
+   
+}
+
+
+.hero-section {
+    /* background-image: url(./images.jfif); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:50px 0px 120px 0px  ;
+
+}
+
+
+.content {
+    padding: 100px 0px 0px 50px;
+
+}
+
+.free {
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white
+
+    
+
+}
+
+
+.delivery {
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#ff0000cf;
+    border-radius: 20px;
+    margin: 0px 0px 20px 0px
+
+
+}
+
+.entire {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    margin: 0px 0px 20px 0px
+
+
+}
+
+.btn{
+    margin: 5px 0px 0px 0px ;
+}
+
+.one-b{
+
+    margin: 0px 0px 30px 0px;
+    border: none;
+    width: 200px;
+    height:100px ;
+    height: 50px;
+    font-size: 20px;
+   background-color:#ff0000cf ;
+   border-radius: 15px;
+   color: white;
+
+}
+
+.two-b{
+    border: none;
+    width: 200px;
+    height:100px ;
+    height: 50px;
+    font-size: 20px; 
+    border-radius: 15px;
+
+}
+
+.card-section{
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 38px;
+flex-direction: row;
+flex-wrap: wrap;
+/* padding: 70px 45px 0px 45px */
+/* margin: 0px 0px 18px 0px; */
+}
+
+
+
+
+.card{
+    height: 300px;
+    width: 350px;
+    /* border-radius: 15px; */
+}
+
+.card img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card p{
+    color:#ff0000cf ;
+}
